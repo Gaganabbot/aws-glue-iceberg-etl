@@ -1,0 +1,13 @@
+{
+    "Name": "nyc_raw_data_crawler",
+    "Role": "AWSGlueServiceRole",
+    "DatabaseName": "nyc_taxi_data_db",
+    "Targets": {
+      "S3Targets": [
+        {
+          "Path": "s3://nyc-taxi-data-project-raw/"
+        }
+      ]
+    }
+  }
+  

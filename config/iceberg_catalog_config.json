@@ -1,0 +1,7 @@
+{
+    "catalog-name": "iceberg_glue_catalog",
+    "warehouse": "s3://nyc-taxi-data-project-warehouse/",
+    "catalog-impl": "org.apache.iceberg.aws.glue.GlueCatalog",
+    "io-impl": "org.apache.iceberg.aws.s3.S3FileIO"
+  }
+  
