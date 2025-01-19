@@ -15,7 +15,6 @@ This project demonstrates batch processing with AWS Glue, Apache Iceberg, and At
 
 ---
 
----
 
 ## Dataset
 The dataset used in this project is the NYC Taxi Trip Data. You can download it from the following link:  
